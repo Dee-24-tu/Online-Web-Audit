@@ -1,0 +1,184 @@
+/*********************
+CSS HEX
+*********************
+
+--bittersweet: #fd5963ff; MENU
+--amber: #ffbf24ff; NAV BACKGROUND
+--tomato: #fe7353ff;
+--tropical-indigo: #8686feff; HEADING
+--atomic-tangerine: #fe8c43ff;  BACKGROUND COLOR
+--night: #080c0bff; FONT COLOR
+--white: #ffffffff; FONT COLOR
+
+**********************/
+
+/*********************
+GLOBAL STYLING
+*********************/
+
+body{
+    background-color: rgb(255, 234, 220);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
+    margin: auto;
+    overflow: visible;
+}
+
+h1{
+    background-color: #8686feff;
+    color: #fff;
+    margin: auto;
+    padding: 0.3rem;
+    padding-bottom: 0rem;
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+    background-color: #ffbf24ff;
+    text-align: center;
+}
+
+.menu{
+    display: inline-block;
+}
+
+a{
+    display: block;
+    cursor: pointer;
+    color: #080c0bff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem; 
+}
+
+nav a{
+    border-right: 0.2rem solid #fd5963ff;
+}
+
+nav a:last-child{
+    border-right: none;
+}
+
+.menu:hover{
+    background-color: #fd5963ff;
+    color: #fff;
+    border-radius: 0.2rem;
+}
+
+footer a:hover{
+    color: #fff;
+}
+
+/*********************
+MAIN PAGE STYLING
+*********************/
+
+dl, p{
+    padding: 1rem;
+}
+
+dt{
+    font-weight: bold; 
+    text-decoration: underline;
+    padding: 1rem;
+}
+
+p a{
+    font-size: inherit;
+    padding: 0rem 0rem 0rem 1.2rem;
+}
+
+p span{
+    padding-left: 1.2rem;
+}
+
+footer{
+    background-color: #fe8c43ff;
+    text-align: end;
+    font-size: 0.8rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/*********************
+SERVICE PAGE STYLING
+*********************/
+.square-index{
+    display: list-item;
+    list-style-type: square;
+    font-weight: bold;
+    }
+
+ul{
+    padding: 3rem;
+}
+
+li{ 
+
+    
+    
+    padding: 0.3rem;
+}
+
+.service-indent{
+    list-style-type: none; 
+    font-weight: lighter;
+}
+
+/*********************
+CONTACT PAGE STYLING
+*********************/
+.page-color{
+    background-color: rgb(255, 218, 131);
+}
+
+form{
+    float: left;
+    font-size: 1.2rem;
+    padding: 3rem;
+    margin: 25rem;
+}
+
+fieldset{
+    background-color: rgb(239, 239, 253);
+    border: 0.2rem solid #fe8c43ff;
+    border-radius: 0.5rem;
+    display: inline-block;
+}
+
+label, input, textarea{
+    display: block;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    margin: 0.2rem;
+}
+
+input, textarea{
+    background-color: rgb(248, 232, 233);
+    border: 0.1rem solid #fd5963ff;
+    width: 28rem;
+    height: 1.8rem;
+}
+
+.buttons{
+    float: inline-start;
+    text-align: center;
+    background-color: #fe8c43ff;
+    border: 0.2rem solid #fd5963ff;
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+    width: 5rem;
+}
+
+.buttons:hover{
+    background-color: #fd5963ff;
+    border: 0.2rem solid #fe7353;
+    color: #fff;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/style.css">
+        <title>Tables</title>
+    </head>
+
+    <body>
+        <table>
+            <thead>
+                    <h1>Fish Creek Animal Hospital</h1>
+                <tr>
+                    <td rowspan="1">Home</td>
+                    <td colspan="">Services</td>
+                    <td style="width: 5rem;">Ask the Vet</td>
+                    <td colspan="">Contact</td>
+                </tr>
+            </thead>
+            
+            <tr>
+                <td style="border: none;">
+                    <dl>
+                        <dt style="font-weight: bold; text-decoration: underline;">Full Service Facility</dt>
+                            <dd>Veternarians and staff are on duty 24 hours a day, 7 days a week.</dd>
+                        <dt style="font-weight: bold; text-decoration: underline;">Years of Experience</dt>
+                            <dd>Fish Creek Veternarians have provided quality, depenndable care for beloved animals since 1984.</dd>
+                        <dt style="font-weight: bold; text-decoration: underline;">Open Door Policy</dt>
+                            <dd>Our professionals welcome owners to stay with their pets during any medical procedure.</dd>
+                    </dl>
+            
+                    <p>
+                        <a href="tell:1-800-555-5555" style ="text-decoration: none; color: black;">1-800-555-5555</a><br>
+                        1242 Grass Lane<br>
+                        Fish Creek, WI 55534
+                    </p>
+                </td>
+
+                <td style="border: none;">
+                    <ul class="square-index">
+                        <li class="service-indent">Medical Services</li>
+                            <ul style="display: list-item; list-style-type: none; font-weight: lighter; text-indent: -2.5rem;">
+                                <li>We offer state of the art equipment & technology</li>
+                            </ul> 
+                        <li class="service-indent">Surgical Services</li>
+                            <ul style="display: list-item; list-style-type: none; font-weight: lighter;text-indent: -2.5rem;">
+                                <li>Full range of surgical procedures</li>
+                            </ul>
+                        <li class="service-indent">Dental Care</li>
+                            <ul style="display: list-item; list-style-type: none; font-weight: lighter;text-indent: -2.5rem;">
+                                <li>A dental exam can determine whether your pet needs preventatives dental care such as scaling and polishing.</li>
+                            </ul>
+                        <li class="service-indent">House Calls</li>
+                            <ul style="display: list-item; list-style-type: none; font-weight: lighter;text-indent: -2.5rem;">
+                                <li>The elderly, physically challenged, and multiple pet households often find our in-home veterinary service helpful and convenient.</li>
+                            </ul>
+                    </ul>
+                </td>
+
+                <td class="no-border"></td>
+                
+                <td style="border: none;">
+                    <form id="feedback-frm" method="post">
+                        <fieldset>
+                            <legend>Tell us what you think</legend>
+                            <label for="fname">Name:</label>
+                                <input type="text" id="fname" name="fname" placeholder="James" autofocus>
+                            <label for="lname">Last Name:</label>
+                                <input type="text" id="lname" name="lname" placeholder="Smith">
+                            <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" size="30" placeholder="email@example.ie" required>
+                            <label for="msghead">Message:</label>
+                                <input type="text" id="msghead" name="msghead" placeholder="Dog is sick.">
+                            <textarea name="feedback" row="25" cols="30" maxlength="500" placeholder="Tell us how your dog got sick"></textarea>
+                            <input class="buttons" type="submit" formmethod="post" onclick="alert('Thank you for your feedback.')" value="Submit">
+                            <input class="buttons" type="reset" value="Reset">
+                        </fieldset>
+                    </form>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="no-border"></td>
+                <td class="no-border"></td>
+                <td class="no-border"></td>
+                
+                <td style="border: none;">
+                    <footer>
+                        <p><i>Copyright &#169; 2013 Fish Creek Animal Hospital</i><br>
+                            <a href="email:yourfirstname@yourlastname.com">yourfirstname@yourfirstname.com</a>
+                        </p>
+                    </footer>
+                </td>
+            </tr>
+        </table>
+    </body>
+
+</html>

@@ -1,0 +1,10 @@
+Retail Sales Index
+December 2019 (Provisional) November 2019 (Final)
+Seasonally Adjusted Retail Sales Index - All Businesses
+ 	(Base Year 2015 = 100)
+ 	    Volume Index	Value Index
+December 2018	117.4	109.7
+November 2019	119.9	111.0
+December 2019	124.2	114.7
+Monthly % change	3.6	3.4
+Annual % change	5.8	4.6
